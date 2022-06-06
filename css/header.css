@@ -1,6 +1,5 @@
 header {
     padding-top: 46px;
-    height: 40px;
     padding-bottom: 39px;
 }
 
@@ -11,7 +10,6 @@ header {
 
 .header-logo {
     width: 107px;
-    height: 24px;
     padding: 10px 0px;
 }
 
