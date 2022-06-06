@@ -15,6 +15,10 @@ header {
     display: flex;
 }
 
+.header .header-logo {
+    padding-top: 10px;
+}
+
 .header .header-logo a {
     line-height: 24px;
 }
