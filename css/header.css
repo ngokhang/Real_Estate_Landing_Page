@@ -1,98 +1,64 @@
 header {
-    padding-top: 46px;
-    padding-bottom: 39px;
+    padding-top: 41px;
+    padding-bottom: 34px;
+    background: rgb(230,240,255);
 }
 
+/* header */
 .header {
     display: flex;
     justify-content: space-between;
 }
 
-.header-logo {
-    width: 107px;
-    padding: 10px 0px;
-}
-
-.header-logo a {
-    display: block;
-}
-
-.header-right {
+/* header left */
+.header .header-left {
     display: flex;
-    gap: 0 65px;
 }
 
-.header-right .header-nav {
-    display: flex;
-    gap: 0 40px;
+.header .header-logo a {
     line-height: 24px;
+}
+
+.header .header-left ul{
+    display: flex;
+    margin-left: 65px;
     padding: 10px 0;
 }
 
-.header-right .header-nav li{
-    display: inline-block;
-    line-height: 24px;
+.header .header-left ul li {
+    padding: 0px 15px;
 }
 
-.header-right .header-nav a {
+.header .header-left ul li a {
+    display: inline-block;
     font-size: 14px;
+    line-height: 24px;
     color: #4F5361;
-    font-weight: 200;
 }
 
-.header-left a {
+
+/*end of header left*/
+
+/* header right */
+.header .header-right {
+    display: flex;
+}
+
+.header .header-right a {
     display: inline-block;
+    font-style: 14px;
+    line-height: 24px;
+    color: #4F5361;
     padding: 10px 0;
-    font-size: 14px;
-    line-height: 24px;
 }
 
-.header-left a:first-child {
-    color: #4F5361;
+.header .header-right a:first-child {
     margin-right: 38px;
 }
 
-.header-left a:last-child {
-    color: #fff;
-    padding: 11px 20px;
+.header .header-right a:last-child {
+    padding: 10px 20px;
     background-color: #4F5361;
-    border-radius: 5px;
-}
-
-@media only screen and (max-width: 1200px) {
-    .container {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-
-    .header-right {
-        display: flex;
-        gap: 0 50px;
-    }
-    
-}
-
-@media only screen and (max-width: 960px) {
-    .container {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
-    .header-right {
-        display: flex;
-        gap: 0 30px;
-    }
-
-    .header-left a:first-child {
-        color: #4F5361;
-        margin-right: 20px;
-    }
-
-    .header-right .header-nav {
-        display: flex;
-        gap: 0 20px;
-        line-height: 24px;
-        padding: 10px 0;
-    }
-    
+    color: #fff;
+    border-radius: 10px;
 }

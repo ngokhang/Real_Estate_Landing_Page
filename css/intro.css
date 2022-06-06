@@ -1,0 +1,48 @@
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(230,240,255);
+}
+
+.hero-section img {
+    width: 100%;
+}
+
+/* hero-section-intro */
+.section-intro {
+    padding-top: 144px;
+    width: 560px;
+}
+.section-intro h4 {
+    font-size: 18px;
+    line-height: 24px;
+    color: #687690;
+    padding-bottom: 4px;
+}
+
+.section-intro h1 {
+    font-size: 64px;
+    line-height: 72px;
+    color: #000336;
+    font-weight: bold;
+}
+
+.section-intro p {
+    font-size: 18px;
+    line-height: 32px;
+    padding-top: 10px;
+    padding-bottom: 26px;
+}
+
+.section-intro-button a{
+    display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    padding: 15px 38px;
+    background-color: #0F1B4C;
+    border-radius: 10px;
+}
+
+
+/* End of section-intro */
